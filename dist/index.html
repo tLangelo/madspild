@@ -26,13 +26,16 @@
 <h1>Kort over danmark</h1>
 <p class="description">Madspild i Danmark. <strong>Tryk på cirklerne</strong></p>
 <div class="distribution-map">
-    <!-- This was broken for a while because image hosts are annoying, so now it's a data uri. Sorry :( -->
+    <!-- This was broken for a while because image hosts are annoying, so now it's a data url. Sorry :( -->
     <img src="images/Kort-over-Danmark.png" alt="PICTURE OF DENMARK" width = "941" height = "759" > 
-    <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
+    <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a html loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
     <button class="map-point" style="top:16%;left:33%">
         <div class="content">
             <div class="centered-y">
-                <h2>Nordjylland</h2>
+                <h2>Region Nordjylland</h2>
+            </div>
+            <div class="imgLocation">
+                <img src="images/skraldespanden_nordjylland_ny.png" alt="skrældespand" width = "116" height = "200" >
                 <p>ses vi på jomfru ane gade min veng</p>
             </div>
         </div>
@@ -40,7 +43,11 @@
     <button class="map-point" style="top:48%;left:25%">
         <div class="content">
             <div class="centered-y">
-                <h2>Midtjylland</h2>
+                <h2>Region Midtjylland</h2>
+
+            </div>
+            <div class="imgLocation">
+                <img src="images/skraldespanden_midtjylland_ny.png" alt="skrældespand" width = "116" height = "200" >
                 <p>FC MIDTJYLLAAAAND</p>
             </div>
         </div>
@@ -48,7 +55,10 @@
     <button class="map-point" style="top:70%;left:30%">
         <div class="content">
             <div class="centered-y">
-                <h2>Syddanmark</h2>
+                <h2>Region Syddanmark</h2>
+            </div>
+            <div class="imgLocation">
+                <img src="images/skraldespanden_syddanmark_ny.png" alt="skrældespand" width = "116" height = "200" >
                 <p>ska vi lige ned og køv' et par colaer Karen?</p>
             </div>
         </div>
@@ -56,7 +66,10 @@
     <button class="map-point" style="top:72%;left:55%">
         <div class="content">
             <div class="centered-y">
-                <h2>Sjælland</h2>
+                <h2>Region Sjælland</h2>
+            </div>
+            <div class="imgLocation">
+                <img src="images/skraldespanden_sjælland_ny.png" alt="skrældespand" width = "116" height = "200" >
                 <p>djævleøen</p>
             </div>
         </div>
@@ -64,14 +77,24 @@
     <button class="map-point" style="top:59%;left:66%">
         <div class="content">
             <div class="centered-y">
-                <h2>Hovedstaden</h2>
-                <p>brødtekst her ik</p>
+                <h2>Region Hovedstaden</h2>
+            </div>
+            <div class="imgLocation">
+                <img src="images/skraldespanden_hovedstaden_ny.png" alt="skrældespand" width = "116" height = "200" >
+                <p>Hver københavner smider i snit 42 kg mad ud om året</p>
             </div>
         </div>
     </button>
 </div>
-<p class="description">Wuf wuf</p>
+
 <!-- partial -->
-  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
+  <script
+          src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'>
+  </script>
+<footer>
+    <p>
+        Kilde: <a href="https://fvm.dk/"> Misisteriet for Fødevare, Landbrug og Fiskeri</a>
+    </p>
+</footer>
 </body>
 </html>
