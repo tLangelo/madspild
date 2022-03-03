@@ -151,7 +151,6 @@ nav1 a:nth-child(3):hover ~ #indicator1 {
   background: linear-gradient(130deg, rgb(255, 255, 255), red);
 }
 
-
 /****************************
     Kort
 ****************************/
@@ -163,15 +162,21 @@ nav1 a:nth-child(3):hover ~ #indicator1 {
   font-family: 'Open Sans', sans-serif;
 }
 
-div, img, footer {
+div,
+img,
+footer {
   position: relative;
   box-sizing: border-box;
 }
 
-h1, h2, h4, h5, h6 {
+h1,
+h2,
+h4,
+h5,
+h6 {
   margin-bottom: 20px;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
@@ -194,10 +199,9 @@ p {
   margin-bottom: 12pt;
 }
 
-
 strong {
   font-weight: 900;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #e5e5e5;
 }
 
@@ -211,7 +215,9 @@ a {
 a:visited {
   color: #dff3fd;
 }
-li.active a, a:hover, a:active {
+li.active a,
+a:hover,
+a:active {
   color: #e5e5e5;
 }
 
@@ -265,11 +271,16 @@ li.active a, a:hover, a:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   transform: translate(-50%, -50%);
-  -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out 0.25s,
+    width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s,
+    z-index 0.25s ease-in-out 0.25s;
+  -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s,
+    height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out,
+    height 0.25s ease-in-out, z-index 0.25s ease-in-out;
   -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
-  transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s,
+    height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
   background: rgba(26, 26, 26, 0.85);
   border: 5px solid #ff0000;
 }
@@ -283,7 +294,8 @@ li.active a, a:hover, a:active {
   transform: translateX(-50%);
   overflow: overlay;
 }
-.distribution-map .map-point:active, .distribution-map .map-point:focus {
+.distribution-map .map-point:active,
+.distribution-map .map-point:focus {
   margin: 0;
   padding: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -292,19 +304,28 @@ li.active a, a:hover, a:active {
   height: 440px;
   color: #e5e5e5;
   z-index: 1;
-  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out,
+    height 0.25s ease-in-out;
 }
-.distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
+.distribution-map .map-point:active .content,
+.distribution-map .map-point:focus .content {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-  -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
-  -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
+    overflow 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
+    overflow 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out,
+    overflow 0.25s ease-in-out;
   -webkit-transition-delay: 0.25s, 0s, 0s;
-  transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out,
+    overflow 0.25s ease-in-out;
   overflow: hidden;
 }
-.distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
+.distribution-map .map-point:active .content a:hover,
+.distribution-map .map-point:active .content a:active,
+.distribution-map .map-point:focus .content a:hover,
+.distribution-map .map-point:focus .content a:active {
   color: #f5d93c;
 }
 
@@ -316,24 +337,49 @@ li.active a, a:hover, a:active {
 Moden avo: 213,214,84
 */
 
-
-
 .avo {
-  position: relative;
+  position: absolute;
   box-sizing: border-box;
   height: auto;
-  width: 1000px;
-  left: -30%;
+  width: 500px;
+  left: 10%;
   float: left;
   overflow: hidden;
 
+.avo_desc {
+  margin-top: 100px;
+  left: 30%;
+  color: rgb(109, 122, 18);
+  font-size: 50px;
+  margin-left: 400px;
 }
 
-#avo_desc {
-  margin-top: 180px;
+.banana {
+  margin-top: 300px;
+  position: absolute;
+  box-sizing: border-box;
+  height: auto;
+  width: 750px;
+  left: 60%;
+  float: right;
+  overflow: hidden;
+}
+
+.banana_desc {
+  position: absolute;
+  margin-top: 420px;
+  color: rgb(231, 197, 55);
+  font-size: 50px;
+  margin-right: 500px;
+  padding-right: 400px;
   left: 10%;
-  color: rgb(213,214,84);
-  font-size: 150%;
+}
+
+.opdeler {
+  margin-top: 1000px;
+  padding-top: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  margin-bottom: 100px;
 }
 
 footer {
@@ -343,4 +389,11 @@ footer {
   width:100%;
   height:60px;   /* Height of the footer */
 }
+.æg {
+  width: 700px;
+  height: auto;
+}
 
+li {
+  margin-bottom: 15px;
+}
